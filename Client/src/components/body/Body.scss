@@ -8,14 +8,29 @@
 .f-container{
 
     background-color: #30b573;
-    margin-top: 550px;
+    
     height: 300px;
+
+    h1{
+        color: white
+    }
+
+    li{
+        color: white;
+    }
  }
 
  .plant-content{
     display: flex;
     flex-direction: row;
-    gap: 300px;
+    gap: 20px;
     flex-wrap: wrap;/*  faire descendre le elmt */
     justify-content: space-evenly;/* prop row */
+    align-items: center;
+    height: 100%;
+    min-height: 70vh;
+    .plant-img{
+        width: 200px;
+        border-radius: 9px;
+    }
  }

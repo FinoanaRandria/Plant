@@ -24,8 +24,8 @@ export const plantListes = [
 
 {
     id:'2',
-    nom:'Dalia',
-    categorie:'classique',
+    nom:'Vanille',
+    categorie:'exterieur',
     lumiere:2,
     eau:3,
     photo:im
@@ -34,14 +34,34 @@ export const plantListes = [
 
 {
     id:'3',
-    nom:'Dalia',
+    nom:'inc',
+    categorie:'exterieur',
+    lumiere:1,
+    eau:2,
+    photo:im
+
+},
+
+
+{
+    id:'4',
+    nom:'tournesol',
     categorie:'classique',
     lumiere:1,
     eau:2,
     photo:im
 
-}
+},
 
+{
+    id:'5',
+    nom:'Afrodisiaque',
+    categorie:'plante grasse',
+    lumiere:1,
+    eau:2,
+    photo:im
+
+}
 
 
 ]
