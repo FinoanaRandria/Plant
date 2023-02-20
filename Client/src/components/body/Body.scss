@@ -1,0 +1,21 @@
+.logo{
+
+    position: relative;
+    left: 1500px;
+}
+
+
+.f-container{
+
+    background-color: #30b573;
+    margin-top: 550px;
+    height: 300px;
+ }
+
+ .plant-content{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    flex-wrap: wrap;/*  faire descendre le elmt */
+    justify-content: space-evenly;/* prop row */
+ }
